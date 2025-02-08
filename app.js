@@ -161,7 +161,7 @@ function removeTask(e){
                 e.target.parentElement.parentElement.remove()
                 
 
-                // Remove From LocalStorage 
+                // Remove From the LocalStorage  
                 removeFromLocalStorage(e.target.parentElement.parentElement.innerText);
 
             }
